@@ -1,5 +1,5 @@
 {
-  "name": "cbcomponents",
+  "name": "cb-components",
   "svelte": "src/index.svelte",
   "module": "index.mjs",
   "main": "index.js",
