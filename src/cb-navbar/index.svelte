@@ -1,6 +1,11 @@
 <svelte:options tag="cb-navbar"/>
 
-<link rel="stylesheet" href="bundle.css"/>
+<script>
+  // by default use latest motley version for unpkg
+  export let css = "https://unpkg.com/@coding-blocks/motley/dist/app.min.css"
+</script>
+
+<link rel="stylesheet" href={css} />
 
 <div class="border">
   <div class="container">
