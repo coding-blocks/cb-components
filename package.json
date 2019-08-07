@@ -6,6 +6,7 @@
   "scripts": {
     "start": "rollup -c -w",
     "build": "NODE_ENV=production rollup -c",
+    "clean": "rm -rf example/bundle.* && rm -rf dist/*",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {

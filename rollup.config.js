@@ -23,7 +23,7 @@ export default {
 	},
 	plugins: [
 		svelte({
-			// customElement: true
+			customElement: true
 		}),
 		resolve(),
 		production && terser(),

@@ -4,3 +4,6 @@ package-lock.json
 index.js
 index.mjs
 dist
+example/bundle.cs
+
+example/bundle.js

@@ -1,5 +1,7 @@
 <svelte:options tag="cb-navbar"/>
 
+<link rel="stylesheet" href="bundle.css"/>
+
 <div class="border">
   <div class="container">
     <div class="row justify-content-end py-3">
