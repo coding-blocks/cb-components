@@ -3,23 +3,36 @@
 <script>
   // by default use latest motley version for unpkg
   export let css = "https://unpkg.com/@coding-blocks/motley/dist/app.min.css"
+  export let topalign = "center"
+
+  let topStyle = 'justify-content-center'
+
+  $: switch (topalign) {
+    case 'left': topStyle = 'justify-content-start'; break;
+    case 'right': topStyle = 'justify-content-end'; break;
+    default: topStyle = 'justify-content-center'
+  }
+  
 </script>
 
 <link rel="stylesheet" href={css} />
 
+
+
+
 <div class="border">
-  <div class="container">
-    <div class="row justify-content-end py-3">
-      <a href="#" class=" mr-5">
-        Courses
-        <i class="ml-1 fas fa-chevron-up"></i>
-      </a>
-      <a href="#" class="mr-5">Products</a>
-      <a href="#" class="mr-5">About Us</a>
-      <a href="#" class="mr-5">Resources</a>
-      <a href="#" class="mr-5">Campus Ambassadors</a>
-      <a href="#">Contact Us</a>
-    </div>
+  <div class="d-flex {topStyle} py-3">
+    <a href="#" class=" mr-5">
+      Courses
+      <i class="ml-1 fas fa-chevron-up"></i>
+    </a>
+    <a href="#" class="mr-5">Products</a>
+    <a href="#" class="mr-5">About Us</a>
+    <a href="#" class="mr-5">Resources</a>
+    <a href="#" class="mr-5">Campus Ambassadors</a>
+    <a href="#">Contact Us</a>
+
+    <slot></slot>
   </div>
 </div>
 
