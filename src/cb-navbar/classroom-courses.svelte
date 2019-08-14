@@ -8,38 +8,111 @@
 
   <ul class="col-4">
       <li class="bold">Beginner Courses</li>
-      <li>C++ For Beginners</li>
-      <li>Java For Beginners</li>
-      <li>Python App Development</li>
+      <li>
+        <a href="https://codingblocks.com/classroom-courses/c-plus-plus-for-beginners.html">
+            C++ For Beginners
+        </a>
+      </li>
+      <li>
+        <a href="https://codingblocks.com/classroom-courses/java-for-beginners.html">
+          Java For Beginners
+        </a>
+      </li>
+      <li>
+        <a href="https://codingblocks.com/classroom-courses/python-app-dev.html">
+          Python App Development
+        </a>
+      </li>
   </ul>
   <ul class="col-4">
       <li class="bold">Development Courses</li>
-      <li>Android App Dev</li>
-      <li>Full Stack Web Dev</li>
-      <li>Python Django</li>
-      <li>Unity Game Development</li>
+      <li>
+        <a href="https://codingblocks.com/classroom-courses/android-app-development-using-kotlin-and-java.html">
+          Android App Dev
+        </a>
+      </li>
+      <li>
+        <a href="https://codingblocks.com/classroom-courses/web-development-nodejs.html">
+          Full Stack Web Dev
+        </a>
+      </li>
+      <li>
+        <a href="https://codingblocks.com/classroom-courses/web-development-django.html">
+          Python Django
+        </a>
+      </li>
+      <li>
+        <a href="https://codingblocks.com/classroom-courses/unity-game-development.html">
+          Unity Game Development
+        </a>
+      </li>
   </ul>
   <ul class="col-4">
       <li class="bold">Advanced Courses</li>
-      <li>Algo++</li>
-      <li>Algo.Java</li>
-      <li>Competitive Programming</li>
-      <li>Machine Learning</li>
+      <li>
+        <a href="https://codingblocks.com/classroom-courses/advanced-data-structures-and-algorithms-for-interviews.html" >
+          Algo++
+        </a>
+      </li>
+      <li>
+        <a href="https://codingblocks.com/classroom-courses/advanced-data-structures-and-algorithms-using-java.html" >
+          Algo.Java
+        </a>
+      </li>
+      <li>
+        <a href="https://codingblocks.com/classroom-courses/competitive-programming.html" >
+          Competitive Programming
+        </a>
+      </li>
+      <li>
+        <a href="https://codingblocks.com/classroom-courses/machine-learning-with-deep-learning.html" >
+          Machine Learning
+        </a>
+      </li>
   </ul>
   <ul class="col-4">
       <li class="bold">Junior Courses</li>
-      <li>Code 4 Kids</li>
-      <li>Maths Geek</li>
+      <li>
+        <a href="https://codingblocks.com/classroom-courses/code4kids.html">
+          Code 4 Kids
+        </a>
+      </li>
+      <li>
+        <a href="https://codingblocks.com/classroom-courses/mathsgeeks.html">
+          Maths Geek
+        </a>
+      </li>
   </ul>
   <ul class="col-4">
       <li class="bold">Bootcamps</li>
-      <li>React JS</li>
-      <li>Blockchain</li>
-      <li>Interview Preparation</li>
-      <li>Game Dev</li>
-      <li>Chatbot</li>
+      <li>
+        <a href="https://codingblocks.com/bootcamps/react.html">React JS
+        </a>
+      </li>
+      <li>
+        <a href="https://codingblocks.com/bootcamps/blockchain.html">Blockchain
+        </a>
+      </li>
+      <li>
+        <a href="https://codingblocks.com/bootcamps/coding-interview-preparation.html">Interview Preparation
+        </a>
+      </li>
+      <li>
+        <a href="https://codingblocks.com/bootcamps/gamedev.html">Game Dev
+        </a>
+      </li>
+      <li>
+        <a href="https://codingblocks.com/bootcamps/chatbots.html">Chatbot
+        </a>
+      </li>
   </ul>
   <ul class="col-4">
-      <li class="bold">Industrial Training</li>
+      <li class="bold">
+        Professional
+      </li>
+      <li>
+        <a href="https://codingblocks.com/classroom-courses/six_months_ind_training.html">Industrial Training
+        </a>
+      </li>
   </ul>
 </div>

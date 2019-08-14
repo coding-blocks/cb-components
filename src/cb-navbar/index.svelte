@@ -39,11 +39,11 @@
       Courses
       <i class="ml-1 fas fa-chevron-up"></i>
     </span>
-    <a href="#" class="mr-5">Products</a>
-    <a href="#" class="mr-5">About Us</a>
-    <a href="#" class="mr-5">Resources</a>
-    <a href="#" class="mr-5">Campus Ambassadors</a>
-    <a href="#">Contact Us</a>
+    <!-- <a href="" class="mr-5">Products</a> -->
+    <a href="https://codingblocks.com/about.html" class="mr-5">About Us</a>
+    <a href="https://codingblocks.com/resources" class="mr-5">Resources</a>
+    <a href="https://codingblocks.com/campus-ambassador-program.html" class="mr-5">Campus Ambassadors</a>
+    <a href="https://codingblocks.com/centres/">Contact Us</a>
 
     <slot></slot>
   </div>
