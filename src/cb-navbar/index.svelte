@@ -7,7 +7,7 @@
   // by default use latest motley version for unpkg
   export let css = "https://unpkg.com/@coding-blocks/motley/dist/app.min.css"
   export let topalign = "center"
-  export let expanded = true
+  export let expanded = false
   export let tab = "classroom"
 
   let topStyle = 'justify-content-center'
