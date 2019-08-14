@@ -17,20 +17,49 @@
 
 <link rel="stylesheet" href={css} />
 
+<div class="a-hb d-md-block d-none">
+<div class="d-flex px-5 py-4 justify-content-between align-items-center mt-neg-70">
+  <div class="col-10">
+    <div class="row">
+      <div class="col-2">
+        <img src="images\hb_logo.png" alt="Logo">
+      </div>
+      <div class="col-10">
+        <div class="d-flex align-items-center h-100">
+          <div class="font-sm light px-3">Dashboard</div>
+          <div class="font-sm light px-3">Daily Code Bytes</div>
+          <div class="font-sm light px-3">Practice Problems</div>
+          <div class="font-sm light px-3">Contests</div>
+          <div class="font-sm light px-3">Compeititons</div>
+        </div>
+      </div>  
+    </div>
+  </div>
+  <button class="button-solid button-orange">Get Started</button>
+</div>
 
 
 
 <div class="border">
-  <div class="d-flex {topStyle} py-3">
-    <a href="#" class=" mr-5">
-      Courses
-      <i class="ml-1 fas fa-chevron-up"></i>
-    </a>
-    <a href="#" class="mr-5">Products</a>
-    <a href="#" class="mr-5">About Us</a>
-    <a href="#" class="mr-5">Resources</a>
-    <a href="#" class="mr-5">Campus Ambassadors</a>
-    <a href="#">Contact Us</a>
+  <div class="d-flex {topStyle} py-3 pr-5">
+    <div class="px-3">
+      <a href="#" class="orange">Courses</a>
+    </div>
+    <div class="px-3">
+      <a href="#">Products</a>
+    </div>
+    <div class="px-3">
+      <a href="#">About Us</a>
+    </div>
+    <div class="px-3">
+      <a href="#">Resources</a>
+    </div>
+    <div class="px-3">
+      <a href="#">Campus Ambassadors</a>
+    </div>
+    <div class="px-3">
+      <a href="#">Contact Us</a>
+    </div>
 
     <slot></slot>
   </div>
@@ -96,4 +125,5 @@
       </ul>
     </div>
   </div>
+</div>
 </div>
