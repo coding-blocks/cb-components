@@ -31,9 +31,6 @@
     "index.js"
   ],
   "dependencies": {
-
-  },
-  "peerDependencies": {
-    "@coding-blocks/motley": "^0.3.49"
+    "@coding-blocks/motley": "^0.4.0"
   }
 }
