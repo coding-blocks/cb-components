@@ -5,6 +5,9 @@ import { terser } from 'rollup-plugin-terser';
 import livereload from 'rollup-plugin-livereload'
 import serve from 'rollup-plugin-serve'
 import scss from 'rollup-plugin-scss'
+import replace from 'rollup-plugin-replace';
+import copy from 'rollup-plugin-copy'
+
 
 const production = process.env.NODE_ENV == 'production'
 
@@ -18,21 +21,34 @@ export default {
 	output: {
 		sourcemap: production,
 		format: 'iife',
-		file: production ? 'dist/index.js' : 'example/bundle.js',
+		file: production ? 'dist/index.js' : 'example/index.js',
 		name
 	},
 	plugins: [
+		replace({
+			API_HOST: production ? 'http://hack-api.codingblocks.com/' : 'http://localhost:3000/',
+			HB_HOST: production ? 'http://hack.codingblocks.com' : 'http://localhost:4200',
+			'css="bundle.css"': ''
+		}),
 		svelte({
 			customElement: true
 		}),
-		resolve(),
+		resolve({
+			allowSyntheticDefaultImports: true
+		}),
 		production && terser(),
 		!production && serve('example'),
 		!production && livereload({
 			watch: 'example'
 		}),
 		scss({
-			output: 'example/bundle.css'
-		})
+			output: production ? 'dist/bundle.css' : 'example/bundle.css'
+		}),
+		copy({
+			targets: [
+				{ src: 'example/index.html', dest: 'dist/' },
+				{ src: 'images', dest: 'dist/' }
+			  ]
+		}),
 	]
 };

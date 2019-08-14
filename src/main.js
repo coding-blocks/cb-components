@@ -1,2 +1,6 @@
 import CBNavbar from './cb-navbar/index.svelte'
-import "@coding-blocks/motley/dist/app.min.css"
+import UpcomingContests from './upcoming-contests/index.svelte'
+
+import "@coding-blocks/motley/dist/hb/app.min.css"
+
+import "macro-carousel"

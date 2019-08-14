@@ -1,7 +1,7 @@
 {
-  "name": "cb-components",
+  "name": "@coding-blocks/cb-components",
+  "version": "0.0.1",
   "svelte": "src/index.svelte",
-  "module": "index.mjs",
   "main": "index.js",
   "scripts": {
     "start": "rollup -c -w",
@@ -10,9 +10,13 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
+    "macro-carousel": "^1.0.0",
     "rollup": "^1.11.0",
+    "rollup-plugin-copy": "^3.1.0",
+    "rollup-plugin-html": "^0.2.1",
     "rollup-plugin-livereload": "^1.0.1",
     "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-replace": "^2.2.0",
     "rollup-plugin-scss": "^1.0.2",
     "rollup-plugin-serve": "^1.0.1",
     "rollup-plugin-svelte": "^5.0.0",
@@ -27,8 +31,7 @@
     "index.mjs",
     "index.js"
   ],
-  "dependencies": {},
-  "peerDependencies": {
-    "@coding-blocks/motley": "^0.3.49"
+  "dependencies": {
+    "@coding-blocks/motley": "^0.4.0"
   }
 }
