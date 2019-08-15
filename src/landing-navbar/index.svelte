@@ -70,11 +70,9 @@
           </div>
         </div>
       </div>
-      <button class="button-solid button-orange dsp-none-sm">
-        <a class="white" href="/app"> 
-          Get Started
-        </a>
-      </button>
+      <a class="button-solid button-orange dsp-none-sm white" href="/app">
+        Get Started
+      </a>
     </div>
 </div>
 
