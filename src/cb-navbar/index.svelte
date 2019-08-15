@@ -11,6 +11,7 @@
   export let tab = "classroom"
 
   let topStyle = 'justify-content-center'
+  let icon = faChevronUp
 
   $: switch (topalign) {
     case 'left': topStyle = 'justify-content-start'; break;
@@ -22,10 +23,7 @@
 
 </script>
 
-<link rel="stylesheet" href={css} />
-
-<div class="a-hb d-md-block d-none">
-  <style>
+<style>
     a:hover {
       text-decoration: underline;
     }
@@ -33,15 +31,21 @@
     .hover-grey.selected:hover {
       background: unset;
     }
-  </style>
+</style>
 
-  <link rel="stylesheet" href={css} />
+<link rel="stylesheet" href={css} />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css" integrity="sha256-AaQqnjfGDRZd/lUp0Dvy7URGOyRsh8g9JdWUkyYxNfI=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/solid.css" integrity="sha256-xKY109Q6SWqmez9cY4ZDiL/KPacElX8usnXjmFO7p7g=" crossorigin="anonymous" /> 
+
+<div class="a-hb d-md-block d-none">
+  
 
   <div class="border">
     <div class="d-flex {topStyle} py-3 pr-5">
       <span class="px-3 pointer" on:click={toggleExpanded}>
         Courses
-        <i class="ml-1 fas fa-chevron-up"></i>
+        <i class="ml-1 fas fa-chevron-{expanded ? 'up' : 'down'}"></i>
+
       </span>
       <div class="px-3">
         <a href="#">Products</a>
