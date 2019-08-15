@@ -70,7 +70,9 @@
   {#if expanded}
     <div class="row no-gutters cb-navbar-expanded" style="overflow: hidden">
       <div class="cb-navbar-side col-3">
-        <div class="font-lg offset-3">Our Courses</div>
+        <div class="py-5 font-md bold hover-grey">
+          <div class="font-lg my-4 offset-3">Our Courses</div>
+        </div>
         <div class="py-4 font-md bold hover-grey {tab == 'classroom' && 'selected'}" on:click={() => tab = "classroom"}>
           <div class="offset-3">
             <div>Classroom Courses</div>
