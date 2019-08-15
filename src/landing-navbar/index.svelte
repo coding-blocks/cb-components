@@ -68,9 +68,9 @@
           </div>
         </div>
       </div>
-      <a href="/app" class="button-solid button-orange">
-        Get Started
-      </a>
+      <button class="button-solid button-orange">
+        Coming Soon
+      </button>
     </div>
 </div>
 
