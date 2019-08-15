@@ -40,7 +40,7 @@
           </div>
           <div class="col-10 dsp-none-md">
             <div class="d-flex align-items-center h-100">
-              <!-- <div class="font-sm light px-3">
+              <div class="font-sm light px-3">
                 <a href="/app">
                   Dashboard
                 </a>
@@ -64,13 +64,13 @@
                 <a href="/app/competitions">
                   Compeititons
                 </a>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>
       </div>
       <button class="button-solid button-orange">
-        Coming Soon
+        Get Started
       </button>
     </div>
 </div>
