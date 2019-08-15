@@ -36,7 +36,7 @@
 <link rel="stylesheet" href={css} />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800" rel="stylesheet">
-<link href="https://minio.codingblocks.com/hackerblocks/Gilroy.ttf" rel="stylesheet">
+<link href="https://minio.codingblocks.com/hackerblocks-images/Gilroy.ttf" rel="stylesheet">
 
 
 <div class="a-hb d-md-block d-none">
