@@ -26,8 +26,8 @@ export default {
 	},
 	plugins: [
 		replace({
-			API_HOST: production ? 'http://hack-api.codingblocks.com/' : 'http://localhost:3000/',
-			HB_HOST: production ? 'http://hack.codingblocks.com' : 'http://localhost:4200',
+			API_HOST: production ? 'https://hack-api.codingblocks.com/' : 'http://localhost:3000/',
+			HB_HOST: production ? 'https://hack.codingblocks.com' : 'http://localhost:4200',
 			'css="bundle.css"': ''
 		}),
 		svelte({
