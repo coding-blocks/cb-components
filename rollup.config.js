@@ -42,7 +42,8 @@ export default {
 			watch: 'example'
 		}),
 		scss({
-			output: production ? 'dist/bundle.css' : 'example/bundle.css'
+			output: production ? 'dist/bundle.css' : 'example/bundle.css',
+			outputStyle: 'compressed'
 		}),
 		copy({
 			targets: [
