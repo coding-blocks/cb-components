@@ -17,6 +17,7 @@
 <link rel="stylesheet" href={css} />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css" integrity="sha256-AaQqnjfGDRZd/lUp0Dvy7URGOyRsh8g9JdWUkyYxNfI=" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/solid.css" integrity="sha256-xKY109Q6SWqmez9cY4ZDiL/KPacElX8usnXjmFO7p7g=" crossorigin="anonymous" /> 
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800" rel="stylesheet">
 
 <div class="a-hb p-0">
     <div
