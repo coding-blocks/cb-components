@@ -8,6 +8,7 @@
   export let topalign = "center"
   export let expanded = false
   export let tab = "classroom"
+  export let css = "https://unpkg.com/@coding-blocks/motley/dist/app.min.css"
 
   let topStyle = 'justify-content-center'
   let icon = faChevronUp

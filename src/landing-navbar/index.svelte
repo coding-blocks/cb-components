@@ -124,4 +124,4 @@
 	</div>
 </div>
 {/if}
-<cb-navbar topalign="right" css={css}> </cb-navbar>
+<cb-navbar topalign="right"> </cb-navbar>
