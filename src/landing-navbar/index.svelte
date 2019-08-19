@@ -34,12 +34,12 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-8 col-6">
-        <div class="row">
-          <div class="col-2">
+      <div class="col-sm-12 col-6">
+        <div class="row align-items-center">
+          <div class="col-xl-2 col-md-4 col-3 px-0">
             <img src="/images/hb_logo.png" alt="Logo" />
           </div>
-          <div class="col-10 dsp-none-md">
+          <div class="col-xl-10 col-md-8 dsp-none-md">
             <div class="d-flex align-items-center h-100">
               <div class="font-sm light px-3">
                 <a href="/app">
