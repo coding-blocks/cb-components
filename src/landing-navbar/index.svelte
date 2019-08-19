@@ -15,65 +15,65 @@
 </script>
 
 <link rel="stylesheet" href={css} />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+  integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800" rel="stylesheet">
 <link href="https://minio.codingblocks.com/hackerblocks-images/Gilroy.ttf" rel="stylesheet">
 
 
 <div class="a-hb p-0">
-    <div
-      class="d-flex px-5 py-4 justify-content-between align-items-center mt-neg-70">
-      <div class="d-md-none">
-        <div class="hamburger-menu mr-3">
-          <div class="ham-toggle" on:click={toggleHamburgerNav}>
-            <div class="hamburger">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
+  <div class="d-flex px-5 py-4 justify-content-between align-items-center mt-neg-70">
+    <div class="d-md-none">
+      <div class="hamburger-menu mr-3">
+        <div class="ham-toggle" on:click={toggleHamburgerNav}>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
         </div>
       </div>
-      <div class="col-sm-12 col-6">
-        <div class="row align-items-center">
-          <div class="col-xl-2 col-md-4 col-3 px-0">
-            <img src="/images/hb_logo.png" alt="Logo" />
-          </div>
-          <div class="col-xl-10 col-md-8 dsp-none-md">
-            <div class="d-flex align-items-center h-100">
-              <div class="font-sm light px-3">
-                <a href="/app">
-                  Dashboard
-                </a>
-              </div>
-              <div class="font-sm light px-3">
-                <a href="/app/dcb">
-                  Daily Code Bytes
-                </a>
-              </div>
-              <div class="font-sm light px-3">
-                <a href="/app/practice">
-                  Practice Problems
-                </a>
-              </div>
-              <div class="font-sm light px-3">
-                <a href="/app/contests">
-                  Contests
-                </a>
-              </div>
-              <div class="font-sm light px-3">
-                <a href="/app/competitions">
-                  Compeititons
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="button-solid button-orange dsp-none-sm white" href="/app">
-        Get Started
-      </a>
     </div>
+    <div class="col-md-10 col-12">
+      <div class="row align-items-center">
+        <div class="col-xl-2 col-3 px-lg-4 px-0">
+          <img src="/images/hb_logo.png" alt="Logo" />
+        </div>
+        <div class="col-xl-10 col-9 dsp-none-md">
+          <div class="d-flex align-items-center h-100">
+            <div class="font-sm light px-3">
+              <a href="/app">
+                Dashboard
+              </a>
+            </div>
+            <div class="font-sm light px-3">
+              <a href="/app/dcb">
+                Daily Code Bytes
+              </a>
+            </div>
+            <div class="font-sm light px-3">
+              <a href="/app/practice">
+                Practice Problems
+              </a>
+            </div>
+            <div class="font-sm light px-3">
+              <a href="/app/contests">
+                Contests
+              </a>
+            </div>
+            <div class="font-sm light px-3">
+              <a href="/app/competitions">
+                Compeititons
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="button-solid button-orange dsp-none-sm white" href="/app">
+      Get Started
+    </a>
+  </div>
 </div>
 
 {#if showHamburger}
