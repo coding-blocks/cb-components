@@ -63,7 +63,7 @@
             </div>
             <div class="font-sm light px-3">
               <a href="/app/competitions">
-                Compeititons
+                Competitions
               </a>
             </div>
           </div>
