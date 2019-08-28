@@ -68,6 +68,7 @@
       <div class="px-3">
         <a href="https://codingblocks.com/centres/">Contact Us</a>
       </div>
+      <slot name="header"></slot>
     </div>
 
   </div>
