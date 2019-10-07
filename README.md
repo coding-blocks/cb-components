@@ -1,5 +1,5 @@
 # cb-components
-Collection of independent components to be used accross coding-block's platforms.
+Collection of independent components to be used across coding-block's platforms.
 
 ## cb-navbar
 
