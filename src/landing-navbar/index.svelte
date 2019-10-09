@@ -70,7 +70,7 @@
         </div>
       </div>
     </div>
-    <a class="button-solid button-orange dsp-none-sm white" href="/app">
+    <a class="button-solid button-orange dsp-none-sm white" href="/app/">
       Get Started
     </a>
   </div>
