@@ -31,6 +31,11 @@
     .hover-grey.selected:hover {
       background: unset;
     }
+
+    .a-hb {
+      display: none;
+    }
+    
 </style>
 
 <link rel="stylesheet" href={css} />
@@ -40,7 +45,6 @@
 
 
 <div class="a-hb d-md-block d-none">
-  
 
   <div class="border">
     <div class="d-flex {topStyle} py-3 pr-5">
@@ -64,6 +68,7 @@
       <div class="px-3">
         <a href="https://codingblocks.com/centres/">Contact Us</a>
       </div>
+      <slot name="header"></slot>
     </div>
 
   </div>
