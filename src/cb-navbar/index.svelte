@@ -54,9 +54,6 @@
 
       </span>
       <div class="px-3">
-        <a href="#">Products</a>
-      </div>
-      <div class="px-3">
         <a href="https://codingblocks.com/about.html">About Us</a>
       </div>
       <div class="px-3">
