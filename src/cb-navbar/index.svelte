@@ -54,16 +54,16 @@
 
       </span>
       <div class="px-3">
-        <a href="https://codingblocks.com/about.html">About Us</a>
+        <a href="https://codingblocks.com/about.html" target="_blank">About Us</a>
       </div>
       <div class="px-3">
-        <a href="https://codingblocks.com/resources">Resources</a>
+        <a href="https://codingblocks.com/resources" target="_blank">Resources</a>
       </div>
       <div class="px-3">
-        <a href="https://codingblocks.com/campus-ambassador-program.html">Campus Ambassadors</a>
+        <a href="https://codingblocks.com/campus-ambassador-program.html" target="_blank">Campus Ambassadors</a>
       </div>
       <div class="px-3">
-        <a href="https://codingblocks.com/centres/">Contact Us</a>
+        <a href="https://codingblocks.com/centres/" target="_blank">Contact Us</a>
       </div>
       <slot name="header"></slot>
     </div>
@@ -79,7 +79,7 @@
         <div class="py-4 font-md bold hover-grey {tab == 'classroom' && 'selected'}" on:click={() => tab = "classroom"}>
           <div class="offset-3">
             <div>Classroom Courses</div>
-            <a href="https://codingblocks.com/classroom-courses/" class="font-mds orange"> 
+            <a href="https://codingblocks.com/classroom-courses/" target="_blank" class="font-mds orange"> 
               Explore all 
             </a>
           </div>
@@ -87,7 +87,7 @@
         <div class="py-4 font-md bold hover-grey {tab == 'online' && 'selected'}"  on:click={() => tab = "online"}>
           <div class="offset-3">
             <div>Online Courses</div>
-            <a href="https://online.codingblocks.com/courses" class="font-mds orange"> 
+            <a href="https://online.codingblocks.com/courses" target="_blank" class="font-mds orange"> 
               Explore all 
             </a>
           </div>
