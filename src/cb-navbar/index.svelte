@@ -7,7 +7,7 @@
   // by default use latest motley version for unpkg
   export let topalign = "center"
   export let expanded = false
-  export let tab = "classroom"
+  export let tab = "online"
   export let css = "https://unpkg.com/@coding-blocks/motley/dist/app.min.css"
 
   let topStyle = 'justify-content-center'
@@ -76,14 +76,6 @@
         <div class="py-5 font-md bold hover-grey">
           <div class="font-lg my-4 offset-3">Our Courses</div>
         </div>
-        <div class="py-4 font-md bold hover-grey {tab == 'classroom' && 'selected'}" on:click={() => tab = "classroom"}>
-          <div class="offset-3">
-            <div>Classroom Courses</div>
-            <a href="https://codingblocks.com/classroom-courses/" target="_blank" class="font-mds orange"> 
-              Explore all 
-            </a>
-          </div>
-        </div>
         <div class="py-4 font-md bold hover-grey {tab == 'online' && 'selected'}"  on:click={() => tab = "online"}>
           <div class="offset-3">
             <div>Online Courses</div>
@@ -92,6 +84,15 @@
             </a>
           </div>
         </div>
+        <div class="py-4 font-md bold hover-grey {tab == 'classroom' && 'selected'}" on:click={() => tab = "classroom"}>
+          <div class="offset-3">
+            <div>Classroom Courses</div>
+            <a href="https://codingblocks.com/classroom-courses/" target="_blank" class="font-mds orange"> 
+              Explore all 
+            </a>
+          </div>
+        </div>
+        
         
       </div>
       <div class="col-9 font-mds">
