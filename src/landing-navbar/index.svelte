@@ -22,7 +22,7 @@
 
 
 <div class="a-hb p-0">
-  <div class="d-flex px-5 py-4 justify-content-between align-items-center mt-neg-70">
+  <div class="d-flex px-5 py-4 justify-content-between align-items-center">
     <div class="d-md-none">
       <div class="hamburger-menu mr-3">
         <div class="ham-toggle" on:click={toggleHamburgerNav}>
