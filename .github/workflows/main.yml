@@ -18,4 +18,4 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.PRIVATE_KEY }}
-        script: cd frontends/cb-components && yarn build
+        script: cd frontends/cb-components && git pull origin master && yarn build
